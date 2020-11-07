@@ -1,0 +1,23 @@
+.basketProduct__container {
+    display: flex;
+    margin: 30px 15px 15px 30px;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+
+.basketProduct__info {
+    display: flex;
+}
+
+.basketProduct__img {
+    width: 230px;
+    object-fit: contain;
+    height: 200px;
+
+}
+.basketProduct__ratingStar{
+    height: 30px;
+    width: 30px;
+}

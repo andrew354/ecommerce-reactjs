@@ -1,0 +1,19 @@
+.checkout__title {
+	width: 100%;
+	text-align: center;
+}
+
+.checkout {
+	display: flex;
+}
+
+.checkout__left {
+	width: 60vw;
+	height: 100vh;
+	overflow-y: auto;
+}
+
+.checkout__right {
+	width: 30vw;
+}
+

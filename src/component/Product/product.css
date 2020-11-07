@@ -1,0 +1,36 @@
+.product {
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	text-align: center;
+	width: 300px;
+	height: 400px;
+	margin: 10px;
+}
+
+.product__info {
+	text-align: start;
+	margin: 10px 0 10px 10px;
+}
+
+.product__info p {
+	margin-bottom: 5px;
+}
+
+.product__ratingStar {
+	height: 30px;
+}
+
+.product__image {
+	height: 150px;
+	object-fit: contain;
+}
+
+.product__buttonBasket {
+	width: 60%;
+	align-self: center;
+	margin-bottom: 10px;
+	position: relative;
+	bottom: -30px;
+}

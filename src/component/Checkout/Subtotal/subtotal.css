@@ -1,0 +1,39 @@
+.subtotal {
+	width: 29vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 3px;
+	margin: 30px 25px 5px 10px;
+	padding: 25px;
+	background-color: #f3f3f3;
+}
+
+.subtotal__text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.subtotal__paymentMethods img{
+	width: 300px;
+	background-color: #f3f3f3;
+
+}
+
+.subtotal__buttonContainer {
+	text-align: center;
+	border-top: 2px solid #fff;
+}
+
+.subtotal__button{
+	width: 87%;
+    margin: 20px 0px 25px;
+    padding: 10px;
+    background-color: rgb(48, 184, 48);
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 700;
+	font-size: 18px;
+}

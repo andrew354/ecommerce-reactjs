@@ -1,0 +1,19 @@
+.home {
+	background-color: #eaeded;
+	max-width: 1500px;
+}
+
+.home__image {
+	width: 100%;
+	mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	margin-bottom: -160px;
+	z-index: -1;
+}
+
+.home__row {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 10px;
+	z-index: 1;
+}

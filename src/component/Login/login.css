@@ -1,0 +1,164 @@
+/* center the content of the div father */
+.login__container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login__formContainer {
+	position: relative;
+	text-align: center;
+	height: 420px;
+	width: 350px;
+	margin-top: 100px;
+	background-color: rgb(36, 51, 138);
+    color: #fff;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.login__formContainer h1 {
+    background-color: rgb(27, 27, 71);
+    padding: 5px 0 5px 0;
+}
+
+.login__createAccountContainer {
+	background-color: rgb(27, 27, 71);
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: space-evenly;
+	width: 350px;
+	padding: 3px 0 3px 0;
+}
+
+.login__createAccountContainer > a {
+    align-self: center;
+}
+
+.login__socialLogin {
+	display: flex;
+    flex-direction: column;
+}
+
+.login__facebookTwitterContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.login__googleContainer{
+    margin-top: 8px;
+}
+
+.login__facebookLogin {
+    margin: 0 15px 0 15px;
+}
+
+.login__advancedFeatures {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 8px;
+}
+
+.login__rememberMe > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* BUTTONS */
+
+.login__loginButton {
+	border: none;
+	padding: 10px;
+	width: 90%;
+	border-radius: 3px;
+	background-color: rgb(31, 185, 31);
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 20px;
+	margin: 7px 0 7px 0;
+}
+
+.login__createAccountButton {
+    border: none;
+	padding: 10px;
+	width: 30%;
+	border-radius: 3px;
+	background-color: rgb(31, 185, 31);
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 10px;
+	margin: 7px 0 7px 0;
+}
+
+.fa {
+	padding: 5px;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+}
+
+.fa-facebook {
+	background: #3b5998;
+    color: white;
+    margin-right: 4px;
+}
+
+.fa-twitter {
+	background: #55acee;
+	color: white;
+}
+
+.fa-google {
+	background: #dd4b39;
+	color: white;
+}
+
+.login__facebookLoginButton {
+    background: #3b5998;
+    color: white;
+}
+
+.login__twitterLoginButton {
+    background: #55acee;
+	color: white;
+}
+
+.login__googleLoginButton {
+    background: #dd4b39;
+	color: white;
+}
+/* INPUTS */
+
+input.login__formEmailInput {
+	background-image: url('https://cdn3.iconfinder.com/data/icons/pretty-office-part-9-shadow-style-2/256/User-green.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-indent: 30px;
+	padding: 15px 15px 15px 30px;
+	width: 77%;
+	border-radius: 3px;
+	border: none;
+	background-color: rgb(27, 27, 71);
+	color: #fff;
+	margin: 15px 0 5px 0;
+}
+
+input.login__formPasswordInput {
+	background-image: url('https://cdn1.iconfinder.com/data/icons/social-messaging-ui-color/254000/45-512.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-indent: 30px;
+	padding: 15px 15px 15px 30px;
+	width: 77%;
+	border-radius: 3px;
+	border: none;
+	background-color: rgb(27, 27, 71);
+	color: #fff;
+	margin: 5px 0 5px 0;
+}
