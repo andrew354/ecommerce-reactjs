@@ -1,0 +1,908 @@
+{
+	"products": [
+		{
+			"id": "110",
+			"title": "Samsung",
+			"subtitle": "Galaxy S10 Plus",
+			"images": [
+				{
+					"url": "https://static.bhphoto.com/images/images500x500/1552926167000_1465793.jpg"
+				},
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1552925709000_IMG_1156018.jpg"
+				},
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1552925709000_IMG_1156021.jpg"
+				},
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1552925709000_IMG_1156020.jpg"
+				}
+			],
+			"description": "Release date: March 2019 | Weight: 175g | Dimensions: 157.6 x 74.1 x 7.8mm | OS: Android 9 | Screen size: 6.4-inch | Resolution: 1440 x 3040 | CPU: Snapdragon 855 / Exynos 9820 | RAM: 8/12GB | Storage: 128/512GB/1TB | Battery: 4,100mAh | Rear camera: 12MP + 12MP + 16MP | Front camera: 10MP + 8MP",
+			"category": "Smartphone",
+			"price": 739.99,
+			"currency": "€"
+		},
+		{
+			"id": "111",
+			"title": "Huawei",
+			"subtitle": " P30 Pro",
+			"images": [
+				{
+					"url": "https://static.bhphoto.com/images/images500x500/1557351941000_1472880.jpg"
+				},
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1555076708000_IMG_1170750.jpg"
+				},
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1557351715000_IMG_1170752.jpg"
+				},
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1557351715000_IMG_1170751.jpg"
+				}
+			],
+			"description": "Release date: March 2019 | Weight: 192g | Dimensions: 158 x 73.4 x 8.4mm | OS: Android 9 | Screen size: 6.47-inch | CPU: Kirin 980 | RAM: 8GB | Storage: 128/256/512GB | Battery: 4,200mAh | Rear camera: 40MP + 20MP + 8MP + ToF | Front camera: 32MP",
+			"category": "Smartphone",
+			"price": 649,
+			"currency": "€"
+		},
+		{
+			"id": "112",
+			"title": "Huawei",
+			"subtitle": "Mate 20 Pro",
+			"images": [
+				{
+					"url": "https://static.bhphoto.com/images/images500x500/1520543164000_1383576.jpg"
+				},
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1516822291000_IMG_935138.jpg"
+				},
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1520542829000_IMG_954650.jpg"
+				},
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1516822291000_IMG_935141.jpg"
+				}
+			],
+			"description": "Release date: November 2018 | Weight: 189g | Dimensions: 157.8 x 72.3 x 8.6mm | OS: Android 9 | Screen size: 6.39-inch | Resolution: 1440 x 3120 | CPU: Kirin 980 | RAM: 8GB | Storage: 256GB | Battery: 4200mAh | Rear camera: 40MP + 20MP + 8MP | Front camera: 24MP",
+			"category": "Smartphone",
+			"price": 529,
+			"currency": "€"
+		},
+		{
+			"id": "113",
+			"title": "Apple",
+			"subtitle": "iPhone XS",
+			"images": [
+				{
+					"url": "https://www.goldenmac.es/productos/imagenes/img_13044_da0d6c2a70660b21b706499a304c512d_20.jpg"
+				},
+				{
+					"url": "https://www.goldenmac.es/productos/imagenes/img_13045_64e792f72a4327803d157af0960c14cd_20.jpg"
+				},
+				{
+					"url": "https://cdn.shoplightspeed.com/shops/606657/files/12972782/apple-iphone-xs-256gb-silver.jpg"
+				}
+			],
+			"description": "Release date: September 2018 | Weight: 177g | Dimensions: 143.6 x 70.9 x 7.7mm | OS: iOS 12 | Screen size: 5.8-inch | Resolution: 1125 × 2436 | CPU: Exynos A12 Bionic | RAM: 4GB | Storage: 64/256/512GB | Battery: 2,658mAh | Rear camera: 12MP + 12MP | Front camera: 7MP",
+			"category": "Smartphone",
+			"price": 289,
+			"currency": "€"
+		},
+		{
+			"id": "114",
+			"title": "Google",
+			"subtitle": "Pixel 3a XL",
+			"images": [
+				{
+					"url": "https://static.bhphoto.com/images/images500x500/1557330385000_1475550.jpg"
+				},
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1557264604000_IMG_1180315.jpg"
+				},
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1557331315000_IMG_1180639.jpg"
+				},
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1557332200000_IMG_1180685.jpg"
+				}
+			],
+			"description": "Release date: November 2018 | Weight: 184g | Dimensions: 158 x 76.7 x 7.9mm | OS: Android 9 | Screen size: 6.3-inch | Resolution: 1440 x 2960 | CPU: Snapdragon 845 | RAM: 4GB | Storage: 64GB/128GB | Battery: 3,430mAh | Rear camera: 12.2MP | Front camera: 8MP + 8MP",
+			"category": "Smartphone",
+			"price": 609,
+			"currency": "€"
+		},
+		{
+			"id": "115",
+			"title": "OnePlus   ",
+			"subtitle": "6T",
+			"images": [
+				{
+					"url": "https://itshop.ae/wp-content/uploads/2018/11/oneplus-6t-midnight-black-3.jpg"
+				},
+				{
+					"url": "https://itshop.ae/wp-content/uploads/2018/11/oneplus-6t-purple.jpg"
+				},
+				{
+					"url": "https://itshop.ae/wp-content/uploads/2018/11/oneplus-6t-mirror-black-4.jpg"
+				},
+				{
+					"url": "https://itshop.ae/wp-content/uploads/2018/11/oneplus-6t-purple-1.jpg"
+				}
+			],
+			"description": "Release date: November 2018 | Weight: 185g | Dimensions: 157.5 x 74.8 x 8.2mm | OS: Android 9 | Screen size: 6.41-inch | Resolution: 1080 x 2340 | CPU: Snapdragon 845 | RAM: 6/8GB | Storage: 128/256GB | Battery: 3,700mAh | Rear camera: 20MP + 16MP | Front camera: 16MP",
+			"category": "Smartphone",
+			"price": 420,
+			"currency": "€"
+		},
+		{
+			"id": "116",
+			"title": "Honor ",
+			"subtitle": "View 20",
+			"images": [
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/41OoHZCejjL.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/71izLWIiArL._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/71PRp9UYPsL._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/71k-XLXrbTL._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/71EXxzX5H-L._SL1500_.jpg"
+				}
+			],
+			"description": "Release date: January 2019 | Weight: 180g | Dimensions: 156.9 x 75.4 x 8.1mm | OS: Android 9 | Screen size: 6.4-inch | Resolution: 1080 x 2310 | CPU: Kirin 980 | RAM: 6GB/8GB | Storage: 128GB/256GB | Battery: 4,000mAh | Rear camera: 48MP + 3D cam | Front camera: 25MP",
+			"category": "Smartphone",
+			"price": 427,
+			"currency": "€"
+		},
+		{
+			"id": "117",
+			"title": "Oppo",
+			"subtitle": "Reno",
+			"images": [
+				{
+					"url": "https://cdn.shopify.com/s/files/1/1081/0050/products/Oppo-Reno-2019-CPH1917-8GB-RAM-256GB-4G-LTE-Black_1024x1024.jpg?v=1559432142"
+				},
+				{
+					"url": "https://cdn.shopify.com/s/files/1/1081/0050/products/Oppo-Reno-2019-CPH1917-8GB-RAM-256GB-4G-LTE-Green_1024x1024.jpg?v=1559432142"
+				},
+				{
+					"url": "https://cdn.shopify.com/s/files/1/1081/0050/products/Oppo-Reno-2019-CPH1917-8GB-RAM-256GB-4G-LTE-Green-1_1024x1024.jpg?v=1559432142"
+				},
+				{
+					"url": "https://cdn.shopify.com/s/files/1/1081/0050/products/Oppo-Reno-2019-CPH1917-8GB-RAM-256GB-4G-LTE-Black-3_1024x1024.jpg?v=1559432142"
+				}
+			],
+			"description": "Screen: 6.4 AMOLED |4 G Dual Sim | RAM : 6 GB  | Storage: 256 GB | CPU: QualcommSnapdragon 710 | Rear camera 48 Mpx + 5 Mpx | Battery: 3765 mAh | OS: Android 9 ",
+			"category": "Smartphone",
+			"price": 499,
+			"currency": "€"
+		},
+		{
+			"id": "118",
+			"title": "Xiaomi",
+			"subtitle": "Mi 8 Pro",
+			"images": [
+				{
+					"url": "https://www.shakitel.com/562-large_default/xiaomi-mi-8-pro-color-titanio-transparente.jpg"
+				},
+				{
+					"url": "https://www.shakitel.com/563-large_default/xiaomi-mi-8-pro-color-titanio-transparente.jpg"
+				},
+				{
+					"url": "https://www.shakitel.com/564-large_default/xiaomi-mi-8-pro-color-titanio-transparente.jpg"
+				},
+				{
+					"url": "https://image2.geekbuying.com/ggo_pic/2018-06-06/201806601128491v9ia4rx.jpg"
+				}
+			],
+			"description": "Screen : 6.21-inch 2248*1080 Pixel FHD+ | CPU: Qualcomm Snapdragon 845, Octa core, 2.8GHz | GPU: Adreno 630 | MIUI 9 (Base on Android 8.1 OS) | RAM : 6GB | Storage : 256GB ROM | Dual Nano SIM card dual standby | Camera type: Front camera: 20.0 MP | Back camera: 12.0 MP + 12.0 MP | Support FDD LTE / 4 G + /3G/GPS / Bluetooth / Miracast / OTG / Type - C / Touch ID / Infrared face recognition | Networking: 2 G GSM, 3G, 4G FDD - LTE ",
+			"category": "Smartphone",
+			"price": 494,
+			"currency": "€"
+		},
+		{
+			"id": "119",
+			"title": "Apple",
+			"subtitle": "X",
+			"images": [
+				{
+					"url": "https://i0.wp.com/www.emibaba.com/wp-content/uploads/2017/12/apple-iphone-x-grey.jpg"
+				},
+				{
+					"url": "https://i0.wp.com/www.emibaba.com/wp-content/uploads/2017/12/apple-iphone-x-grey-3.jpg"
+				},
+				{
+					"url": "https://i0.wp.com/www.emibaba.com/wp-content/uploads/2017/12/apple-x-grey.jpg"
+				},
+				{
+					"url": "https://i0.wp.com/www.emibaba.com/wp-content/uploads/2017/12/apple-iphone-x-space-grey.jpg"
+				}
+			],
+			"description": "Display: 5.80-inch | Processor: 2.39 GHz hexa-core | RAM : 3GB | Internal Storage : 64GB | Front Camera: 7MP |  Rear Camera: 12MP + 12MP |  Battery Capacity: 2716mAh | OS: iOS 11 | Resolution: 2436×1125 pixels",
+			"category": "Smartphone",
+			"price": 749,
+			"currency": "€"
+		},
+		{
+			"id": "120",
+			"title": "Dell ",
+			"subtitle": "XPS 13",
+			"images": [
+				{
+					"url": "https://img.pccomponentes.com/articles/17/174836/1.jpg"
+				},
+				{
+					"url": "https://img.pccomponentes.com/articles/17/174836/2.jpg"
+				},
+				{
+					"url": "https://img.pccomponentes.com/articles/17/174836/3.jpg"
+				},
+				{
+					"url": "https://img.pccomponentes.com/articles/17/174836/5.jpg"
+				}
+			],
+			"description": "CPU: 8th generation Intel Core i5 – i7 | Graphics: Intel UHD Graphics 620 | RAM: 8GB – 16GB | Screen: 13.3-inch FHD (1,920 x 1,080) – 4k (3840 x 2160) | Storage: 256GB – 1TB SSD",
+			"category": "Laptop",
+			"price": 1.431,
+			"currency": "€"
+		},
+		{
+			"id": "121",
+			"title": "Huawei ",
+			"subtitle": "MateBook 13",
+			"images": [
+				{
+					"url": "https://img.pccomponentes.com/articles/20/208160/2.jpg"
+				},
+				{
+					"url": "https://img.pccomponentes.com/articles/20/208160/4.jpg"
+				},
+				{
+					"url": "https://img.pccomponentes.com/articles/20/208160/5.jpg"
+				},
+				{
+					"url": "https://img.pccomponentes.com/articles/20/208160/7.jpg"
+				}
+			],
+			"description": "Processor  Intel Core i7-8565U (8MB Cache, 1.8GHz) | RAM 8 GB RAM | Hard disk 512 GB ROM | Display: 13 2160 x 1440px 200ppi IPS | Graphics Controller Intel HD Graphics 620 | Connectivity WiFi: IEEE 802.11 | Bluetooth®: BT 5.0(compatible with 4.2, 4.1 and 4.0) | Notebook camera : Yes | Battery : 41.7 Wh(3660 mAh @11 .4 V) | Dimensions : 286 x 211 x 14.9 mm | Weight : 1.3 Kg | Color : Gray ",
+			"category": "Laptop",
+			"price": 1.059,
+			"currency": "€"
+		},
+		{
+			"id": "122",
+			"title": "HP",
+			"subtitle": "Spectre x360 (2019)",
+			"images": [
+				{
+					"url": "https://www.hpexclusive.com.bd/image/cache/catalog/laptop/spectre-x360-ap0076tu/spectre-x360-ap0076tu-1-500x500.jpg"
+				},
+				{
+					"url": "https://centerlap.com/Images/Products/hp-spectre-x360-13-poseidon-blue-2019-i7-8565u-ram-16g-ssd-512g-13-3-ips-full-hd_36193_4.jpg?"
+				},
+				{
+					"url": "https://centerlap.com/Images/Products/hp-spectre-x360-13-poseidon-blue-2019-i7-8565u-ram-16g-ssd-512g-13-3-ips-full-hd_36193_2.jpg"
+				},
+				{
+					"url": "https://centerlap.com/Images/Products/hp-spectre-x360-13-poseidon-blue-2019-i7-8565u-ram-16g-ssd-512g-13-3-ips-full-hd_36193_2.jpg"
+				}
+			],
+			"description": "CPU: Intel Core i5 – i7 | Graphics: Intel UHD Graphics 620 | RAM: 8GB – 16GB | Screen: 13.3-inch full HD (1,920 x 1,080) – UHD (3,840 x 2,160) touchscreen | Storage: 256GB – 2TB PCIe SSD ",
+			"category": "Laptop",
+			"price": 1.059,
+			"currency": "€"
+		},
+		{
+			"id": "123",
+			"title": "Apple",
+			"subtitle": "MacBook Pro with Touch Bar 13-inch",
+			"images": [
+				{
+					"url": "https://www.adorama.com/images/Large/acmr9q2lla.jpg"
+				},
+				{
+					"url": "https://www.adorama.com/images/Large/acmr9q2lla_1.jpg"
+				},
+				{
+					"url": "https://www.adorama.com/images/Large/acmr9q2lla_2.jpg"
+				},
+				{
+					"url": "https://www.adorama.com/images/Large/acmr9q2lla_3.jpg"
+				}
+			],
+			"description": "CPU: Quad-core Intel Core i5 – i7 | Graphics: Intel Iris Plus Graphics 655 | RAM: 8GB – 16GB | Screen: 13.3-inch, (2,560 x 1,600) IPS | Storage: 128GB – 2TB PCIe 3.0 SSD",
+			"category": "Laptop",
+			"price": 1.726,
+			"currency": "€"
+		},
+		{
+			"id": "124",
+			"title": "Asus",
+			"subtitle": "ROG Zephyrus S GX701",
+			"images": [
+				{
+					"url": "https://img-us1.asus.com/A/show/AW000706/2019/0126/AM0000011/201901AM260000011_15490693802678520001992.jpg!t500x500"
+				},
+				{
+					"url": "https://img-us1.asus.com/A/show/AW000706/2019/0126/AM0000011/201901AM260000011_15490693802729930083959.jpg!t500x500"
+				},
+				{
+					"url": "https://img-us1.asus.com/A/show/AW000706/2019/0126/AM0000011/201901AM260000011_15490693802801770097894.jpg!t500x500"
+				},
+				{
+					"url": "https://img-us1.asus.com/A/show/AW000706/2019/0126/AM0000011/201901AM260000011_15490693802953940078189.jpg!t500x500"
+				}
+			],
+			"description": "CPU: Intel Core i7-8750H | Graphics: Nvidia GeForce RTX 2080 (8GB GDDR6 VRAM, Max-Q) | RAM: 24GB | Screen: 17.3-inch FHD (1,920 x 1,080) 144Hz panel | Storage: 1TB M.2 SSD",
+			"category": "Laptop",
+			"price": 2.795,
+			"currency": "€"
+		},
+		{
+			"id": "125",
+			"title": "Microsoft",
+			"subtitle": "Surface Laptop 2",
+			"images": [
+				{
+					"url": "https://i.expansys.net/img/b/317458/microsoft-surface-laptop-2-windows-10-home.jpg"
+				},
+				{
+					"url": "https://i.expansys.net/i/b/b317458-1.jpg"
+				},
+				{
+					"url": "https://i.expansys.net/i/b/b317458-2.jpg"
+				},
+				{
+					"url": "https://i.expansys.net/i/b/b317458-4.jpg"
+				}
+			],
+			"description": "CPU: Intel Core i5 - i7 | Graphics: Intel UHD Graphics 620 | RAM: 8GB - 16GB | Screen: 13.5-inch PixelSense (2,256 x 1,504) | Storage: 128GB, 256GB, 512GB or 1TB SSD",
+			"category": "Laptop",
+			"price": 1.103,
+			"currency": "€"
+		},
+		{
+			"id": "126",
+			"title": "Dell",
+			"subtitle": "XPS 15 2-in-1",
+			"images": [
+				{
+					"url": "https://aio.lv/img/product/750055/2495392_500x500.jpg"
+				},
+				{
+					"url": "https://aio.lv/img/product/750055/2495409_500x500.jpg"
+				},
+				{
+					"url": "https://aio.lv/img/product/750055/2495402_500x500.jpg"
+				},
+				{
+					"url": "https://aio.lv/img/product/750055/2495396_500x500.jpg   "
+				}
+			],
+			"description": "CPU: Intel Core i5-i7 | Graphics: Radeon RX Vega M GL Graphics with 4GB HMB2 Graphics Memory | RAM: 8GB | Storage: 512GB PCIe SSD",
+			"category": "Laptop",
+			"price": 1.54,
+			"currency": "€"
+		},
+
+		{
+			"id": "127",
+			"title": "Acer",
+			"subtitle": "Predator Helios 300",
+			"images": [
+				{
+					"url": "https://cdn11.bigcommerce.com/s-hvhcbznkl4/images/stencil/2000x2000/products/6160/46447/Front__24443.1552939661.jpg?c=2"
+				},
+				{
+					"url": "https://cdn11.bigcommerce.com/s-hvhcbznkl4/images/stencil/2000x2000/products/6160/48820/Front_1__37728.1555963796.jpg?c=2"
+				},
+				{
+					"url": "https://cdn11.bigcommerce.com/s-hvhcbznkl4/images/stencil/2000x2000/products/6160/46225/Rear__73831.1552663464.jpg?c=2"
+				},
+				{
+					"url": "https://cdn11.bigcommerce.com/s-hvhcbznkl4/images/stencil/2000x2000/products/6160/46222/Rear_1__64116.1552663461.jpg?c=2"
+				}
+			],
+			"description": "CPU: Intel Core i5-i7 | Graphics: Radeon RX Vega M GL Graphics with 4GB HMB2 Graphics Memory | RAM: 8GB | Storage: 512GB PCIe SSD",
+			"category": "Laptop",
+			"price": 1.54,
+			"currency": "€"
+		},
+
+		{
+			"id": "128",
+			"title": "Samsung ",
+			"subtitle": "Notebook 9",
+			"images": [
+				{
+					"url": "https://i.ebayimg.com/images/g/2IwAAOSwYRFc4FRq/s-l1600.png"
+				},
+				{
+					"url": "https://i.ebayimg.com/images/g/5yUAAOSw9Sxc4FRq/s-l1600.png"
+				},
+				{
+					"url": "https://i.ebayimg.com/images/g/wdUAAOSwOZVc4FRq/s-l1600.png"
+				},
+				{
+					"url": "https://i.ebayimg.com/images/g/aWwAAOSwY2Rc4FRr/s-l1600.png"
+				}
+			],
+			"description": "CPU: Intel i7-8550U | Graphics: Nvidia GeForce MX150 | RAM: 8GB-16GB | Screen: 15-inch 1,920 x 1,080 LED | Storage: 256-512GB SSD",
+			"category": "Laptop",
+			"price": 949,
+			"currency": "€"
+		},
+		{
+			"id": "129",
+			"title": "Xiaomi ",
+			"subtitle": "Mi Notebook Air 13.3",
+			"images": [
+				{
+					"url": "https://image2.geekbuying.com/ggo_pic/2018-06-19/20180619011494110jw5egl.jpg"
+				},
+				{
+					"url": "https://image2.geekbuying.com/ggo_pic/2018-06-19/201806190115454147wo9sn.jpg"
+				},
+				{
+					"url": "https://image2.geekbuying.com/ggo_pic/2018-06-19/2018061901154571ev1zmps.jpg"
+				},
+				{
+					"url": "https://image2.geekbuying.com/ggo_pic/2018-06-19/201806190115581srma459.jpg"
+				}
+			],
+			"description": "Processor : Intel Core i5-8250U Kaby Lake (6M Cache, up to 3.40 GHz) | RAM : 8 GB DDR4 2400 Mhz | Storage : 256 GB SSD + SSD expansion slot up to 1 TB | Display 13.3 Full HD from 1920 x1080 to 16: 9 | NVIDIA GeForce MX150 2 GB GDDR5 VRAM graphics controller | Audio : Technology Dolby Audio™ Premium Surround | Battery : 4 cells 40 Wh |Weight 1.3 kg",
+			"category": "Laptop",
+			"price": 799,
+			"currency": "€"
+		},
+		{
+			"id": "130",
+			"title": "Lenovo",
+			"subtitle": "Legion Y530",
+			"images": [
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/71HtkYjEeWL._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/71XYeX4nFaL._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/61VMMZYJZ5L._SL1116_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/511phlNcknL._SL1060_.jpg"
+				}
+			],
+			"description": "Screen : 15.6 , Full HD 1920 x 1080 pixels | Processor : Intel Core i5-8300H processor, Quadcore 2.3GHz up to 4.0GHz | RAM : 8GB DDR4, 2400Mhz | Storage : HDD 1TB, 7200rpm, SATA3 | Nvidia GeForce GTX 1050 graphics card with 4 GB GDDR5|OS: Windows 10",
+			"category": "Laptop",
+			"price": 699,
+			"currency": "€"
+		},
+		{
+			"id": "131",
+			"title": "Apple",
+			"subtitle": " Ipad pro 12.9 (2018)",
+			"images": [
+				{
+					"url": "https://i.ebayimg.com/images/g/xm4AAOSwqIhb~qV6/s-l500.jpg"
+				},
+				{
+					"url": "https://i.ebayimg.com/images/g/xjoAAOSwC8pb~qV8/s-l500.jpg"
+				},
+				{
+					"url": "https://http2.mlstatic.com/apple-ipad-pro-129-2018-512-gb-wi-fi-3-gen-new-design-D_NQ_NP_814366-MLA28808616792_112018-F.webp"
+				},
+				{
+					"url": "https://http2.mlstatic.com/apple-ipad-pro-129-2018-512-gb-wi-fi-3-gen-new-design-D_NQ_NP_914201-MLA28808603810_112018-F.webp"
+				}
+			],
+			"description": "Weight: 631gDimensions: 280.6 x 214.9 x 5.9 mmOS: iOS 12.1Screen size: 12.9Resolution: 2048 x 2732 pixelsCPU: Apple A12X BionicRAM: 6GB or 4GBStorage: 1TB or 64/256/512GBBattery: 9720 mAhRear camera: 12MPFront camera: 7MP",
+			"category": "Tablet",
+			"price": 1.065,
+			"currency": "€"
+		},
+		{
+			"id": "132",
+			"title": "Apple",
+			"subtitle": "Ipad air 2019",
+			"images": [
+				{
+					"url": "https://truemedian.com/wp-content/uploads/2019/05/32098/apple-ipad-air-space-gray-early-2019-10-5in-retina-muuj2ll-a-64gb-wifi.jpg"
+				},
+				{
+					"url": "https://i.ebayimg.com/images/g/ziwAAOSwy2Ncr9zM/s-l1600.jpg"
+				}
+			],
+			"description": "Weight: 456gDimensions: 250.6 x 174.1 x 6.1mmOS: iOS 12Screen size: 10.5Resolution: 1668 x 2224CPU: Apple A12 BionicRAM: 3GBStorage: 64GB/256GBBattery: TBCRear camera: 8MPFront camera: 7MP",
+			"category": "Tablet",
+			"price": 639,
+			"currency": "€"
+		},
+		{
+			"id": "133",
+			"title": "Samsung",
+			"subtitle": " Galaxy Tab S4",
+			"images": [
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1533754759000_IMG_1042868.jpg"
+				},
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1533754759000_IMG_1042871.jpg"
+				},
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1533754759000_IMG_1042874.jpg"
+				},
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1533754759000_IMG_1042875.jpg"
+				}
+			],
+			"description": "Weight: 482gDimensions: 249.3 x 164.3 x 7.1 mmOS: Android 8.1 OreoScreen size: 10.5Resolution: 1600 x 2560 pixelsCPU: Qualcomm Snapdragon 835RAM: 4GB/6GBStorage: 64/256GBBattery: 7300 mAhRear camera: 13MPFront camera: 8MP",
+			"category": "Tablet",
+			"price": 492,
+			"currency": "€"
+		},
+		{
+			"id": "134",
+			"title": "Microsoft",
+			"subtitle": "Surface Go",
+			"images": [
+				{
+					"url": "https://static.bhphoto.com/images/images500x500/1545237963000_1423244.jpg"
+				},
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1545237941000_IMG_1113899.jpg"
+				},
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1545237941000_IMG_1113900.jpg"
+				},
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1545237941000_IMG_1113896.jpg"
+				}
+			],
+			"description": "Weight: 1.15 poundsDimensions: 245 x 175 x 8.3mmOS: Windows 10Screen size: 10-inchResolution: 1,800 x 1,200CPU: 1.6GHz Intel Pentium GoldRAM: 8GBStorage: 128GBBattery: UnknownRear camera: 8MPFront camera: 5MP",
+			"category": "Tablet",
+			"price": 498,
+			"currency": "€"
+		},
+		{
+			"id": "135",
+			"title": "Google",
+			"subtitle": "Pixel Slate",
+			"images": [
+				{
+					"url": "https://static.bhphoto.com/images/images500x500/1541002912000_1437229.jpg"
+				},
+				{
+					"url": "https://static.bhphoto.com/images/multiple_images/images500x500/1541002516000_IMG_1086725.jpg"
+				}
+			],
+			"description": "Weight: 731gDimensions: 291 x 202 x 7mmOS: Chrome OSScreen size: 12.3-inchResolution: 3000 x 2000CPU: Intel Celeron, m3, i5 or i7RAM: 4GB/8GB/16GBStorage: 64GB/128GB/256GBBattery: up to 12 hoursRear camera: 8MPFront camera: 8MP",
+			"category": "Tablet",
+			"price": 1.244,
+			"currency": "€"
+		},
+		{
+			"id": "136",
+			"title": "Xiaomi",
+			"subtitle": "Mi Pad 4",
+			"images": [
+				{
+					"url": "https://image2.geekbuying.com/ggo_pic/2018-06-25/201806250121049118mi4o7.jpg"
+				},
+				{
+					"url": "https://image2.geekbuying.com/ggo_pic/2018-06-25/2018062501211261yopsb3u.jpg"
+				},
+				{
+					"url": "https://image2.geekbuying.com/ggo_pic/2018-06-25/201806250121141nivgp5f.jpg"
+				},
+				{
+					"url": "https://image2.geekbuying.com/ggo_pic/2018-06-25/2018062501211171qtyiae0.jpg"
+				}
+			],
+			"description": "MIUI 9 (Oreo Android 8.1) | CPU: Qualcomm Snapdragon 660, Octa Core,      2.2 GHz              GPU: Adreno 512,               Max Frequency 650 MHz | 4 GB DDR4 + 64 GB eMMC | Bluetooth 5.0 |      13.0 MP HD Camera + 5.0 MP Beauty Camera  |13.0 MP rear - facing camera, |8 inches Screen with High 1920 * 1200 Resolution|  Dual Band 2.4 GHz / 5.0 GHz WiFi  802.11 |6000 mAh High Density Battery | Network : TDD - LTE: B34 / B38 / 39 / 40 / 41(100 M) ",
+			"category": "Tablet",
+			"price": 220,
+			"currency": "€"
+		},
+		{
+			"id": "137",
+			"title": "Huawei",
+			"subtitle": "Mediapad M5 8",
+			"images": [
+				{
+					"url": "https://i.ebayimg.com/images/g/44QAAOSw1qhcNSbU/s-l1600.jpg"
+				},
+				{
+					"url": "https://i.ebayimg.com/images/g/TrYAAOSwEHhcNSbX/s-l1600.jpg"
+				},
+				{
+					"url": "https://i.ebayimg.com/images/g/5rwAAOSwD1pcNSbY/s-l1600.jpg"
+				},
+				{
+					"url": "https://i.ebayimg.com/images/g/33wAAOSwjfdcNSbc/s-l1600.jpg"
+				}
+			],
+			"description": "Premium design - metal body - 2.5D curved glass tablet, aesthetic and ergonomic | RAM: 4 GB | Storage: 32 GB ROM | Dimensions: 8.4 inch 2 K(2560 x 1600) IPS screen | Processor: Kirin 960 Octa Core CPU | Battery: 5100 mAh Long - life | Camera: 13 MP Rear Camera + 8 MP Front Camera | Connection: WIFI 802.11 a / b / g / n / ac Dual Band 2.4 GHz / 5 GHz;BT 4.2;Support GPS, A - GPS | OS: Android 8.0 + EMUI8 .0 ",
+			"category": "Tablet",
+			"price": 1.065,
+			"currency": "€"
+		},
+		{
+			"id": "138",
+			"title": "Dell ",
+			"subtitle": "OptiPlex 3050 Micro",
+			"images": [
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/81vVmEl5nbL._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/81b2VWg0-6L._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/81gSVH9QbaL._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/81emySUj6pL._SL1500_.jpg"
+				}
+			],
+			"description": "CPU: 7th Generation Intel Core i3-7100T | Graphics: Intel HD Graphics | RAM: 4GB | Storage: 500GB HDD | Connectivity: Gigabit Ethernet | Dimensions (W x D x H): 18.2 x 3.6 x 17.8 cm",
+			"category": "Desktop Computer",
+			"price": 729,
+			"currency": "€"
+		},
+		{
+			"id": "139",
+			"title": "Microsoft",
+			"subtitle": "Surface Studio",
+			"images": [
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/71GtU-pCvWL._SL1200_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/61%2BXYqgvh9L._SL1200_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/51y64ElkwxL._SL1200_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/51ki8cnQKiL._SL1200_.jpg"
+				}
+			],
+			"description": "CPU: Intel Core i7-6820HQ | Graphics: Nvidia GeForce GTX 980M | RAM: 32GB | Storage: 2TB SSD | Connectivity: Gigabit Ethernet | Dimensions (W x D x H): 25 x 22 x 3.22 cm",
+			"category": "Desktop Computer",
+			"price": 4.199,
+			"currency": "€"
+		},
+		{
+			"id": "140",
+			"title": "Apple",
+			"subtitle": "iMac Pro",
+			"images": [
+				{
+					"url": "https://assets.quzo.net/site/catalogue/Full/2018/01/apple-imac-pro-68-6-cm-27-5k-ultra-hd-intel-xeon-w-32-gb-1024-gb-macos-high-sierra-10-13.jpg"
+				},
+				{
+					"url": "https://assets.quzo.net/site/catalogue/Full/2018/01/40784012_2606266409.jpg.jpg"
+				},
+				{
+					"url": "https://assets.quzo.net/site/catalogue/Full/2018/01/40784012_3834606300.jpg.jpg"
+				},
+				{
+					"url": "https://assets.quzo.net/site/catalogue/Full/2018/01/40784012_6240497483.jpg.jpg"
+				}
+			],
+			"description": "Screen : 68.6 cm (27') 5 K Ultra HD| Processor: Intel Xeon W 3.2 GHz | RAM: 32 GB | Storage: 1024 GB SSD | OS: macOS High Sierra 10.13 ",
+			"category": "Desktop Computer",
+			"price": 5.499,
+			"currency": "€"
+		},
+		{
+			"id": "141",
+			"title": "Logitech ",
+			"subtitle": "MX518",
+			"images": [
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/412DMNFA7PL.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/41XHE1DWDYL.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/41RT46SWAML.jpg"
+				},
+				{
+					"url": "https://assets.quzo.net/site/catalogue/Full/2018/01/40784012_6240497483.jpg.jpg"
+				}
+			],
+			"description": "SCPI: 16,000 | Sensor: Optical | Interface: USB | Buttons: 8 | Ergonomic: Right handed | Weight: 101 g (0.22 lbs)",
+			"category": "Accessories",
+			"price": 99,
+			"currency": "€"
+		},
+		{
+			"id": "142",
+			"title": "Logitech ",
+			"subtitle": "G502 Lightspeed Wireless",
+			"images": [
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/51e0bhSRomL._SL1000_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/51nC3ka6U9L._SL1000_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/613UXUBrAfL._SL1000_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/61xVqIJaDuL._SL1000_.jpg"
+				}
+			],
+			"description": "CPI: 16,000 | Sensor: Optical | Interface: USB / 2.4GHz wireless | Buttons: 11 | Ergonomic: Right-handed | Weight: 114 g (4.02 oz)",
+			"category": "Accessories",
+			"price": 149,
+			"currency": "€"
+		},
+		{
+			"id": "143",
+			"title": "Logitech ",
+			"subtitle": "MX Vertical",
+			"images": [
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/71ZLMX05X4L._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/61RIYxkJJvL._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/71izXML9sML._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/61P1v-h-BiL._SL1500_.jpg"
+				}
+			],
+			"description": "CPI: 4,000 | Sensor: Laser | Interface: Wireless or USB | Buttons: 4 | Ergonomic: Vertical, Right handed | Weight: 135.5 g (0.30 lbs)",
+			"category": "Accessories",
+			"price": 79,
+			"currency": "€"
+		},
+		{
+			"id": "144",
+			"title": "Sony ",
+			"subtitle": "WH-1000XM3B",
+			"images": [
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/61FS6cCXpzL._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/51v5xAsPMSL._SL1200_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/51BobFPbG4L._SL1200_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/8175dUYVPqL._SL1500_.jpg"
+				}
+			],
+			"description": "DRIVER UNIT 40mm, dome type (CCAW Voice coil) |INPUT(S): Stereo Mini Jack| FREQUENCY RESPONSE: 4Hz-40,000Hz| FREQUENCY RESPONSE(BLUETOOTH® COMMUNICATION) : 20Hz - 20,000Hz (44.1kHz Sampling) / 20Hz - 40,000Hz (LDAC 96kHz Sampling, 990kbps) | FREQUENCY RESPONSE (ACTIVE OPERATION) : 4Hz-40,000Hz | PASSIVE OPERATION : Yes | NFC : Yes | CORD LENGTH : Headphone cable (approx. 1.2m, OFC strands, gold-plated stereo mini plug)",
+			"category": "Accessories",
+			"price": 289,
+			"currency": "€"
+		},
+		{
+			"id": "145",
+			"title": "Bose",
+			"subtitle": "SoundSport Free",
+			"images": [
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/61FDdybKTcL._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/61BvCbh9zpL._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/61luNKm3ixL._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/61qy%2Bj-np1L._SL1500_.jpg"
+				}
+			],
+			"description": "TRULY wireless Sport headphones for total freedom of movement| Up to 5 hours of play time | Connectivity Technology: Wireless-Bluetooth",
+			"category": "Accessories",
+			"price": 155,
+			"currency": "€"
+		},
+		{
+			"id": "146",
+			"title": "SteelSeries",
+			"subtitle": "Arctis 7",
+			"images": [
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/71cIxP7E2%2BL._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/71e8Yr3LG5L._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/7131behnIqL._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/81G5OU84HXL._SL1500_.jpg"
+				}
+			],
+			"description": "Lossless 2.4 GHz wireless audio designed for low latency gaming | Best mic in gaming: the Discord-certified Clearcast bidirectional microphone | Hear stunning detail in all games with award-winning Arctis sound| Next-generation DTS Headphone:X v2.0 surround sound | 24-hour battery life",
+			"category": "Accessories",
+			"price": 179,
+			"currency": "€"
+		},
+		{
+			"id": "147",
+			"title": "Apple",
+			"subtitle": "Apple Watch Series 4",
+			"images": [
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/51WhIn%2BYLmL._SL1024_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/51yFtTtESXL._SL1024_.jpg"
+				}
+			],
+			"description": "GPS + Cellular | Over 30% larger display | Electrical and optical heart sensors | Digital Crown with haptic feedback | 50% louder speaker | S4 SiP with faster 64-bit dual-core processor | Improved accelerometer and gyroscope for fall detection| Swimproof | watchOS 5 | Aluminum or stainless steel case",
+			"category": "Accessories",
+			"price": 179,
+			"currency": "€"
+		},
+		{
+			"id": "148",
+			"title": "UE",
+			"subtitle": "Mega Boom 3",
+			"images": [
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/81b0PqswqDL._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/71--SUTddCL._SL1000_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/81lvTqQ5noL._SL1500_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/71pDLaR7Z2L._SL1000_.jpg"
+				}
+			],
+			"description": "Size: 8.9 x 3.4-inches | Weight: 2 pounds | Battery Life: 20 hours | Water Resistance: Yes | Maximum Sound Level: 90db | Voice Controls: No",
+			"category": "Accessories",
+			"price": 139,
+			"currency": "€"
+		},
+		{
+			"id": "149",
+			"title": "Amazon",
+			"subtitle": "Echo Plus 2 Generation",
+			"images": [
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/71Nk6mmYFZL._SL1000_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/61SnU9x-SBL._SL1000_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/71l7Q5P0rCL._SL1000_.jpg"
+				},
+				{
+					"url": "https://images-na.ssl-images-amazon.com/images/I/614rUjuSVZL._SL1000_.jpg"
+				}
+			],
+			"description": "Echo Plus features premium speakers for powerful 360° sound, and a built-in Zigbee smart home hub and temperature sensor. Just ask Alexa to play music, answer questions, make calls, and provide information, news, sports scores, weather, and more. With the built-in hub, starting your smart home is easy.",
+			"category": "Accessories",
+			"price": 149,
+			"currency": "€"
+		}
+	]
+}
