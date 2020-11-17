@@ -1,8 +1,16 @@
 export const initialState = {
 	basket: [], // action.item state.basket
-	user: null  // action.user
+	user: null   // action.user
 };
 
+// SELECTOR
+export const getTotalPriceBasket = (basket) => {
+	const total = basket?.reduce((total, product) => total + product.price, 0)
+	return (total).toLocaleString('en-US', {
+		style: 'currency',
+		currency: 'USD',
+	});
+}
 
 const reducer = (state, action) => {
 	console.log(action);
@@ -10,14 +18,14 @@ const reducer = (state, action) => {
 		case 'ADD_TO_BASKET':
 			return {
 				...state,
-				basket: [...state.basket, action.item],
+				basket: [...state.basket, action.item]
 			};
 		case 'REMOVE_FROM_BASKET':
-			const index = state.basket.findIndex(
+			const index = state.basket.findIndex( // findIndex() returns the INDEX (a number) of the FIRST element in the array that satisfies the function
 				(basketItem) => basketItem.id === action.id
 			);
 			// console.log(index)
-			// findIndex() returns the INDEX (a number) of the FIRST element in the array that satisfies the function
+			
 			let newBasket = [...state.basket];
 			if (index >= 0) { // if it's >= 0 it mean that it found the index
 				newBasket.splice(index, 1); // splice() remove the itam from the array based on the index

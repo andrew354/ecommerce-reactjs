@@ -1,7 +1,7 @@
 import React from 'react';
 import './checkout.css';
 import Subtotal from './Subtotal/Subtotal';
-import BasketProduct from './BasketProduct/BasketProduct'
+import BasketProduct from './BasketProduct/BasketProduct';
 import { useStateValue } from '../../StateProvider';
 
 function Checkout() {
