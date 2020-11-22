@@ -26,8 +26,6 @@ function BasketProduct({id, title, price, image, rating}) {
             id: id
         })
 	}
-	
-	console.log(basket)
 
 	return (
 		<div className="basketProduct__container">

@@ -43,14 +43,10 @@
 	height: 4px;
 	margin-bottom: 5px;
 	position: relative;
-
-	background: #cdcdcd;
+	background: #fff;
 	border-radius: 3px;
-
 	z-index: 1;
-
 	transform-origin: 4px 0px;
-
 	transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
 		background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
 }
@@ -124,13 +120,25 @@
 }
 
 .headerMobile {
-	display: flex;
-	justify-content: space-around;
 	background-color: #232323;
 	align-items: center;
 	position: fixed;
 	top: 0;
 	width: 100%;
+}
+
+.header__topNav {
+	display: flex;
+	margin-top: 5px;
+}
+
+.header__nav {
+	align-self: center;
+}
+
+.header__navBar {
+	display: flex;
+	align-self: center;
 }
 
 .headerMobile__logo img {
@@ -143,6 +151,7 @@
 .header__linkSignIn {
 	display: flex;
 	align-items: center;
+	margin-left: 15px;
 }
 
 .header__basketIconLink {
@@ -153,4 +162,32 @@
 
 .header__basketIcon span {
 	margin-top: -20px;
+}
+
+.header__inputSearchContainer {
+	text-align: center;
+}
+
+.header__inputSearch{
+	text-indent: 10px;
+	padding: 10px 15px 12px 20px;
+	width: 60%;
+	font-size: 20px;
+	border-radius: 3px;
+	border: none;
+	color: #000;
+	margin: 3px 0 7px 0;
+}
+
+.header__inputSearchButton {
+	background-color: rgb(71, 142, 175);
+	border-radius: 3px;
+	border-style: none;
+}
+
+.fa.fa-search {
+	padding: 2px 5px 8px 5px;
+    font-size: 25px;
+	margin: 5px;
+	
 }

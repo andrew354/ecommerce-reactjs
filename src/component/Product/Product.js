@@ -1,12 +1,14 @@
 import React from 'react';
 import { useStateValue } from '../../StateProvider';
+import { Link } from 'react-router-dom';
 import './product.css';
 import Carousel from 'react-elastic-carousel';
+import useWindowSize from '../../useWindowSize';
+import ProductDetail from '../ProductDetail/ProductDetail';
 
 function Product({ id, title, image, price, rating }) {
 	const [{ basket }, dispatch] = useStateValue();
-
-	console.log(image);
+	const {width} = useWindowSize();
 
 	const addToBasket = () => {
 		// dispatch some action, dispatch an item into the dataLayer
@@ -48,19 +50,31 @@ function Product({ id, title, image, price, rating }) {
 					</div> */}
 				</div>
 			</div>
-			<div className="product__imageContainer">
-				<Carousel>
+				<div className="product__imageContainer">
+				<Link to={`/product/${id}`}>
 					{
-						image.map(img => (
-						<img
-							className="product__image"
-							src={img.url}
-							alt="productImage"
-					/>
-						))
+						width > 480 ? (
+							<Carousel>
+						{
+							image.map(img => (
+							<img
+								className="product__image"
+								src={img.url}
+								alt="productImage"
+							/>
+							))
+						}
+					</Carousel>
+						) : (
+							<img
+								className="product__image"
+								src={image[0].url}
+								alt="productImage"
+							/>
+						)
 					}
-				</Carousel>
-			</div>
+					</Link>
+				</div>
 			<div className="product__buttonContainer">
 				<button
 					onClick={addToBasket}

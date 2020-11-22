@@ -1,38 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './home.css';
 import Product from '../Product/Product.js';
+import { Link } from 'react-router-dom';
+import { useStateValue } from '../../StateProvider';
 
 function Home() {
-
-	const [products, setProducts] = useState([])
-
-	
-
-
-	// useEffect(() => {
-    //     // const data = require()
-    //     fetch('../../data.json',{
-	// 		headers : { 
-	// 			'Content-Type': 'application/json',
-	// 			'Accept': 'application/json'
-	// 			}
-	// 		})
-    //         .then(res => res.json())
-    //         .then(products => setProducts(products))
-    // },[products]);
-
-		useEffect(() => {
-			const fetchData = async () => {
-				const response = await fetch(
-					"https://raw.githubusercontent.com/andrew354/ecommerce-reactjs/master/src/data.json"
-				);
-				const data = await response.json();
-				setProducts(data.products);
-			};	
-			fetchData();
-		}, []);
-
-		console.log(products);
+	const [{products, basket}, dispatch] = useStateValue();
 
 	return (
 		<div className="home">
@@ -46,14 +19,13 @@ function Home() {
 					{
 						products.length ?
 						products.map(product => (
-							
-							<Product 
-								id = {product.id}
-								title= {product.title}
-								image={product.images.map( url=> url)}
-								price={product.price}
-								// rating={product.rating}
-							/>
+									<Product
+										id = {product.id}
+										title= {product.title}
+										image={product.images.map( url=> url)}
+										price={product.price}
+										// rating={product.rating}
+									/>
 						)) 
 						: <h2>Loading Products..</h2>
 					}

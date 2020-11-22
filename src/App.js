@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './component/Header/Header.js';
-import HeaderMobile from './component/Header/HeaderMobile.js';
+import HeaderMobile from './component/Header/HeaderMobile/HeaderMobile.js';
 import Home from './component/Home/Home.js';
 import Checkout from './component/Checkout/Checkout.js';
 import Login from './component/Login/Login';
@@ -10,6 +10,7 @@ import { auth } from './firebase';
 import { useStateValue } from './StateProvider';
 import useWindowSize from './useWindowSize';
 import CheckoutMobile from './component/Checkout/CheckoutMobile.js/CheckoutMobile';
+import ProductDetail from './component/ProductDetail/ProductDetail';
 
 
 function App() {
@@ -36,10 +37,30 @@ function App() {
 		});
 	}, []);
 
+	useEffect(() => {
+		const fetchData = async () => {
+			const response = await fetch(
+				"https://raw.githubusercontent.com/andrew354/ecommerce-reactjs/master/src/data.json"
+			);
+			const data = await response.json();
+			// setProducts(data.products);
+			dispatch({
+				type: 'SET_PRODUCTS',
+				products: data.products
+			})
+		};	
+		fetchData();
+	}, []);
+
+
 	return (
 		<Router>
 			<div className="App">
 				<Switch>
+					<Route path="/product/:id">
+						{width < 480 ? <HeaderMobile /> : <Header />}
+						<ProductDetail />
+					</Route>
 					<Route path="/checkout">
 						{width < 480 ? <HeaderMobile /> : <Header />}
 						{width < 480 ? <CheckoutMobile /> : <Checkout />}

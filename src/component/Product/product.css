@@ -34,6 +34,14 @@
 	.product__buttonBasket {
 		width: 60%;
 	}
+
+	.product:first-child {
+		margin-top: 130px;
+	}
+
+	.product:not(:first-child) {
+		margin-top: 10px;
+	}
 }
 
 /* MEDIA QUERY MOBILE */
@@ -72,11 +80,4 @@
 	.product__ratingStar {
 		height: 15px;
 	}
-}
-
-
-.product__buttonContainer {
-	text-align: center;
-	position: relative;
-	top: 90px;
 }

@@ -1,4 +1,5 @@
 export const initialState = {
+	products: [], // 
 	basket: [], // action.item state.basket
 	user: null   // action.user
 };
@@ -40,7 +41,17 @@ const reducer = (state, action) => {
 			return {
 				...state,
 				user: action.user
+			};
+		case 'SET_PRODUCTS':
+			return {
+				...state,
+				products: action.products
 			}
+		// case 'ADD_TO_CART':
+		// 	const products = state.products
+		// 	const check = cart.every(item => {
+		// 		return item.id !== 
+		// 	})
 
 
 		default:
