@@ -11,11 +11,13 @@ function CheckoutMobile() {
 			{basket.length === 0 ? (
 				<h3>Your Shopping Cart is Empty</h3>
 			) : (
-				<div>
+				<div className="checkoutMobile__listBasket">
                     <h3>This is your Shopping Cart</h3>
-					{basket.map((item) => (
+					{basket.map((item, index) => (
 						<BasketProductMobile
-							key={item.id}
+							key={index}
+							subtitle={item.subtitle}
+							description={item.description}
 							title={item.title}
 							price={item.price}
 							image={item.image}

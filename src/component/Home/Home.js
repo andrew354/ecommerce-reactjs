@@ -5,7 +5,9 @@ import { Link } from 'react-router-dom';
 import { useStateValue } from '../../StateProvider';
 
 function Home() {
-	const [{products, basket}, dispatch] = useStateValue();
+	const [{products, basket, filteredProducts}, dispatch] = useStateValue();
+
+	console.log(filteredProducts)
 
 	return (
 		<div className="home">
@@ -17,17 +19,30 @@ function Home() {
 				/>
 				<div className="home__row">
 					{
-						products.length ?
+						filteredProducts.length === 0 ?
 						products.map(product => (
 									<Product
 										id = {product.id}
 										title= {product.title}
+										subtitle={product.subtitle}
+										description={product.description}
 										image={product.images.map( url=> url)}
 										price={product.price}
 										// rating={product.rating}
 									/>
-						)) 
-						: <h2>Loading Products..</h2>
+						)) : (
+							filteredProducts.map(product => (
+								<Product
+									id = {product.id}
+									title= {product.title}
+									subtitle={product.subtitle}
+									description={product.description}
+									image={product.images.map( url=> url)}
+									price={product.price}
+									// rating={product.rating}
+								/>
+					)) 
+						)
 					}
 				</div>
 			</div>

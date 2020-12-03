@@ -35,7 +35,7 @@ function Header() {
 				<ul className="header__ul">
 					<Link className='header__linkSignIn' to={!user && '/login'}>
 						<li className="header__li">
-							<span className="header__liSpanOne">Hello {user ? user.email : 'Guest' } </span>
+							<span className="header__liSpanOne">Hello {user ? 'user.email' : 'Guest' } </span>
 						{
 							(user != null) ? (
 								<span onClick={handleSignOut} className="header__liSpanTwo">Sign Out</span>

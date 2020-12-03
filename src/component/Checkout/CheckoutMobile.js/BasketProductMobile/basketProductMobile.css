@@ -1,0 +1,53 @@
+.basketProductMobile__container {
+	display: flex;
+    margin: 15px 15px;
+}
+
+
+.basketProductMobile__info{
+    align-self: center;
+    margin-left: 15px;
+}
+
+.basketProductMobile__image {
+	width: 150px;
+	object-fit: contain;
+}
+
+.basketProductMobile__buttonContainer{
+    display: flex;
+    padding-bottom: 6px;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(170, 166, 166);
+}
+
+.basketProductMobile__buttonSetItems {
+    display: flex;
+}
+
+.basketProductMobile__buttonBasket {
+    background: rgb(161, 149, 149);
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.basketProductMobile__buttonTotItems {
+    width: 10px;
+    align-self: center;
+}
+
+.basketProductMobile__buttonPlus {
+    padding: 3px 8px;
+    margin-right: 5px;
+    background-color: rgb(77, 75, 74);
+    color: #fff;
+}
+.basketProductMobile__buttonMinus {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: rgb(77, 75, 74);
+    color: #fff;
+}

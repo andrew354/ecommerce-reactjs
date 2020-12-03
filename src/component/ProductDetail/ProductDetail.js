@@ -3,6 +3,7 @@ import './productDetail.css';
 import { Link } from 'react-router-dom';
 import { useStateValue } from '../../StateProvider';
 import { useParams } from 'react-router-dom';
+import Carusel from 'react-elastic-carousel';
 
 function ProductDetail({ match }) {
     const [{products}, dispatch ] = useStateValue();
@@ -26,19 +27,33 @@ function ProductDetail({ match }) {
     return (
         <div className="productDetail__container">
             {
-                product.map(product => (
+                product.map(product =>(
                     <div className="details" key={product.id}>
-                    <div className="box">
-                        <div className="row">
-                            <h2>{product.title}</h2>
+                        <Carusel>
+                            {product.images.map(img => 
+                                <div>
+                                    <img src={img.url} alt={img.url}/>
+                                </div>
+                                
+                            )}
+                        </Carusel>
+                        <div className="productDetail__addCart">
+                            <Link to="/cart">
+                                <button className="cart">
+                                    Add to cart
+                                </button>
+                            </Link>
                             <span>${product.price}</span>
                         </div>
-                        <p>{product.description}</p>
-                        <Link to="/cart" className="cart" >
-                            Add to cart
-                        </Link>
+                        <div className="productDetail__box">
+                            <div className="row">
+                                <h2>{product.subtitle}</h2>
+                            </div>
+                            <h3>{product.title}</h3>
+                            <p>{product.description}</p>
+                            
+                        </div>
                     </div>
-                </div>
                 ))
             }
         </div>

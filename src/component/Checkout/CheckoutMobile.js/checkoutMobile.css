@@ -1,3 +1,7 @@
 .checkoutMobile__container {
-    margin-top: 130px;
+    margin-top: 180px;
+}
+
+.checkoutMobile__listBasket>h3{
+    margin: 0px 15px;
 }

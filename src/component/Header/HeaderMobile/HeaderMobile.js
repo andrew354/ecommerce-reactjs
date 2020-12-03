@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './headerMobile.css';
 import { useStateValue } from '../../../StateProvider';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
@@ -8,8 +8,15 @@ import PersonIcon from '@material-ui/icons/Person';
 import logoSmartStore2 from '../../../static/logoSmartStore3.png';
 
 function HeaderMobile() {
-	const [{ basket, user }, dispatch] = useStateValue();
+	const [{ basket, products, user, filteredProducts }, dispatch] = useStateValue();
 	const history = useHistory();
+	const [categories, setCategories] = useState([]);
+
+	const [categoryChosen, setCategoryChosen] = useState([]);
+
+	const [category, setCategory] = useState("all")
+    const [min, setMin] = useState("")
+    const [max, setMax] = useState("")
 
 	const handleSignOut = () => {
 		if (user) {
@@ -17,6 +24,30 @@ function HeaderMobile() {
 			history.push('/');
 		}
 	};
+
+	const filterForCategory = (category) => {
+		const categoryChosenn = products.filter(product => product.category === category
+		)
+		console.log(categoryChosenn) // e' l'array di prodoctti filtrati per una determinata categoria
+		setCategoryChosen(categoryChosenn)
+	}
+
+	useEffect(() => {
+			dispatch({
+				type: 'SET_FILTERED_PRODUCTS',
+				filteredProducts: categoryChosen,
+			});
+	}, [categoryChosen]); // essenziale perche' funzioni il dispatch
+
+	useEffect(() => {
+		const getCategories = () => {
+			const allCategories = products.map(product => product.category)
+			const categoryUnique = allCategories.filter((elem, index, self) => index === self.indexOf(elem));
+			setCategories(categoryUnique);
+		}
+		getCategories()
+	}, [products])
+
 
 	return (
 		<div className="headerMobile">
@@ -67,21 +98,17 @@ function HeaderMobile() {
 						<Link className="header__linkSignIn" to={!user && '/login'}>
 							<li className="header__li">
 								<span className="header__liSpanOne">
-									{user ? 'Hi ' + user.email : 'Hi Guest'}{' '}
+									{user ? <PersonIcon fontSize="large" /> : user?.name}
 								</span>
 								{user != null ? (
 									<span
 										onClick={handleSignOut}
 										className="header__liSpanTwo"
 									>
-										{user.email}
 									</span>
 								) : (
 									''
 								)}
-							</li>
-							<li>
-								<PersonIcon fontSize="large" />
 							</li>
 						</Link>
 						<Link className="header__basketIconLink" to={'/checkout'}>
@@ -98,7 +125,19 @@ function HeaderMobile() {
 			<div className="header__inputSearchContainer">
 				<input className="header__inputSearch"type="text" />
 				<button className="header__inputSearchButton"><i class="fa fa-search"></i></button>
-
+			</div>
+			<div className="header__categoriesNav">
+				{
+					<ul className="header__categoriesList">
+					{
+						categories?.map((category, index) => (
+							<Link to="/">
+								<li key={index} onClick={() => filterForCategory(category)}>{category}</li>
+							</Link>
+						))
+					}
+					</ul>
+				}
 			</div>
 		</div>
 	);
